@@ -1,5 +1,8 @@
 {
-    "name": "korotovsky/sso-idp-bundle",
+    "name": "sigysmund/sso-idp-bundle",
+    "replace": {
+        "korotovsky/sso-idp-bundle": "0.3.*"
+    },
     "type": "symfony-bundle",
     "description": "Single-sign-on bundle for Symfony2. Identity Provider part.",
     "keywords": ["single-sign-on", "sso", "login", "otp"],
